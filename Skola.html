@@ -34,11 +34,11 @@ section {
 
 /* Style the navigation menu */
 nav {
-   background-image: url(imgs/skola.jpg);
+   background-size:500px;   
    object-fit: cover;
+   background-image: url(imgs/skola.jpg);
    background-repeat:repeat;
-   width: 400px;
-   height: 20px;
+
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -79,18 +79,15 @@ footer {
 </style>
     </head>
     <body>
-<h2>CSS Layout Flexbox</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
-
 <header>
-  <h2>Cities</h2>
+  <h2>Rīgas Valsts 1. ģimnāzija
+</h2>
 </header>
 
 <section>
   <nav>
     <ol>
-      <li><a href="#">Satura rādītājs</a></li>
+      <li id="saturs"><a href="#saturs">Satura rādītājs</a></li>
       <li><a href="#vesture">Vēsture</a></li>
       <li><a href="#nosauk">Skolas nosaukuma maiņas</a></li>
       <li><a href="#skolas vad">Zināmie skolas vadītāji (1229—1804)</a></li>
